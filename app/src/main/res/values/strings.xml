@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">WhiteCoffee</string>
     <string name="app_title">White Coffee</string>
+    <string name="app_alert">Welcome WhiteCoffee</string>
 </resources>
