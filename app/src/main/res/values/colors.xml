@@ -8,4 +8,5 @@
     <color name="colorFaceBook">#3b5999</color>
     <color name="colorEditText">#ffffff</color>
     <color name="colorButton">#ffffff</color>
+    <color name="colorSpecial">#ffffff</color>
 </resources>
