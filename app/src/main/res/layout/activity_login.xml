@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:orientation="vertical"
+    android:background="@color/colorBg"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="White Coffee"
+        android:textSize="26dp"
+        android:textAlignment="center"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/colorTextTitle"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="sign in with facebook"
+        android:background="@drawable/shape_button"
+        android:backgroundTint="@color/colorFaceBook"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:layout_margin="15dp"
+        android:background="@drawable/shape_button"
+        android:backgroundTint="@color/colorTextTitle"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:layout_margin="15dp"
+        android:background="@drawable/shape_button"
+        android:backgroundTint="@color/colorTextTitle"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:background="@drawable/shape_button"
+        android:backgroundTint="@color/colorButton"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="Don't Have Account? Click Here..."
+        android:textColor="@color/colorTextTitle"
+        android:gravity="center"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="bottom"
+            android:text="Forget Account? Click Here..."
+            android:textColor="@color/colorTextTitle"
+            android:layout_marginBottom="10dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>
