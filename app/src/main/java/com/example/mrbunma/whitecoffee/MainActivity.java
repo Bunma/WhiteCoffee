@@ -1,5 +1,6 @@
 package com.example.mrbunma.whitecoffee;
 
+import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -9,23 +10,17 @@ import android.widget.ImageSwitcher;
 import android.widget.ImageView;
 import android.widget.ViewSwitcher;
 
-public class MainActivity extends AppCompatActivity {
+import com.example.mrbunma.whitecoffee.adapter.AndroidImageAdapter;
 
-    private ImageSwitcher imageSwitcher;
+public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        imageSwitcher = findViewById(R.id.imageSwitcher);
-        imageSwitcher.setImageResource(R.drawable.ic_launcher_background);
-        imageSwitcher.setFactory(new ViewSwitcher.ViewFactory() {
-            @Override
-            public View makeView() {
-                ImageView myView = new ImageView(getApplicationContext());
-                return myView;
-            }
-        });
+        ViewPager mViewPager = findViewById(R.id.viewPageAndroid);
+        AndroidImageAdapter adapterView = new AndroidImageAdapter(this);
+        mViewPager.setAdapter(adapterView);
     }
 }
