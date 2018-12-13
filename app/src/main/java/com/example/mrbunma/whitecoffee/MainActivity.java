@@ -100,8 +100,6 @@ public class MainActivity extends AppCompatActivity {
 
                 int nextSlider = currentPage + 1;
 
-
-
                 if (nextSlider == 3) {
                     nextSlider = 0; // if it's last Image, let it go to the first image
                 }
