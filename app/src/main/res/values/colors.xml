@@ -9,4 +9,5 @@
     <color name="colorEditText">#ffffff</color>
     <color name="colorButton">#ffffff</color>
     <color name="colorSpecial">#ffffff</color>
+    <color name="colorTextBg">#f41597</color>
 </resources>
